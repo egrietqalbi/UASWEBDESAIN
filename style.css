@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    }
+
+.parallax {
+    /* mengambil gambar*/
+    background-image: url('gedung.jpg');
+
+    /* tinggi gambar*/
+    height: 15%; 
+
+    /* parallax scroll */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(60%);
+    }
+
+#card-color {
+    background: #FFEEB1;
+}
+#tombolIt {
+    position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer; 
+}
